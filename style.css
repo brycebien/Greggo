@@ -1,14 +1,22 @@
-#title{
+header{
     color: red;
     text-align: center;
     font-size: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 100px;
+    margin-bottom: 2px;
 }
+
 #body{
-    background-color: rgba(0, 128, 0, 0.507);;
+    background-color: rgba(0, 128, 0, 0.507);
+    text-align: center;
 }
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
 .tablestyle{
     border: black solid 3px;
-    margin: 10px 10px 10px 10px;
 }
+
