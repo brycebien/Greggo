@@ -1,17 +1,14 @@
-.flex-container{
-    display: flex;
-}
-
-.grid-container{
-    display: inline-grid;
-}
-
 #title{
     color: red;
     text-align: center;
     font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
 }
-
 #body{
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.507);;
+}
+.tablestyle{
+    border: black solid 3px;
+    margin: 10px 10px 10px 10px;
 }

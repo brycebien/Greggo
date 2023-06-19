@@ -1,0 +1,3 @@
+GREGGO TO DO LIST
+
+- pick from array of sayings add to board
