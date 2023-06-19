@@ -1,0 +1,17 @@
+.flex-container{
+    display: flex;
+}
+
+.grid-container{
+    display: inline-grid;
+}
+
+#title{
+    color: red;
+    text-align: center;
+    font-size: 100px;
+}
+
+#body{
+    background-color: green;
+}
