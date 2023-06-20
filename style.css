@@ -19,7 +19,7 @@ header{
 
 .tablestyle{
     border: black solid 3px;
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
 }
 .saying{
     font-size: 40px;
