@@ -7,7 +7,7 @@ for(let i = 0; i < sayings.length; i++){
     }
 }
 
-//clicking a square activates it
+//SELECTING BOXES
 var boxes = $(".tablestyle");
 
 //adds isSelected property to each box
@@ -22,7 +22,7 @@ boxes.on('click',function(index){
     selected($(this), index.target.isSelected, index.target);
     console.log(index.target.isSelected);
 })
-
+//sets background color and isSelected property when selected
 function selected(box, isSelected, obj){
     if(isSelected == "false"){
         box.css("backgroundColor", "red");
@@ -32,3 +32,5 @@ function selected(box, isSelected, obj){
         obj.isSelected = "false"
     }
 }
+
+//5 IN A ROW
